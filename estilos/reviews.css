@@ -1,0 +1,195 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+body{
+    background-color: rgb(243, 241, 241);
+}
+section{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-indent: 25px;
+    font-family: 'Open Sans', sans-serif;
+} 
+section#site-corpo h1{
+    text-align: center;
+    margin-top: -45px;
+} 
+ h3#descricao{
+    margin-top: -10px; 
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+}
+ p#redator{
+    text-align: right;
+    color: #c7c7c7;
+    margin-top: 10px;
+    margin-right: 3.5px;
+}
+hr#under-red{
+    margin-top: -10px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.322);
+}
+ article h2{
+    text-align: center;
+}
+article p{
+    text-align: justify;
+    margin-top: 0px;
+    font-weight: 400;
+}
+article figure.gameimg{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s ease-in;
+}
+article figure.gameimg:hover{
+    cursor: pointer;
+    opacity: 0.88;
+}
+figure.gameimg figcaption{
+    text-align: right;
+    color: #a5a5a5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ figure.gameimg img{
+    height: auto;
+    transition: all 0.3s ease-in-out;
+}
+div#youtube{
+    width: 100%;
+    padding-bottom: 10px;
+}
+div#youtube iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+table{
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px 2px rgba(117, 117, 255, 0.521); 
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:white;
+}table caption{
+    font-weight: bolder;
+    border:1px solid black;
+    box-shadow: 1px 2px 2px 0px black;
+    vertical-align: middle;
+    border-bottom: none;
+    background-color: rgb(240, 24, 24);
+}
+caption span{
+    margin-left: -15px;
+    color: white;
+}
+table td{
+    text-align: center;
+    text-indent: 0px;
+    font-weight: 680;
+    vertical-align: middle;
+}td.dados{
+    font-weight: 590;
+    color: #3b3b3b;
+    font-family: Arial;
+}
+a.plataformas{
+    color: #3b3b3b;
+    text-decoration: underline;
+}
+.plataformas:hover{
+    color: red;
+}
+tr.l-cinza{
+    background-color: rgba(212, 209, 209, 0.664);
+} @media (max-width: 1366px){
+    section#site-corpo h1{
+        font-size: 30px;
+    }
+    h3#descricao{
+        font-size: 15pt;
+    }
+    p#redator{
+        font-size: 13px;
+    }
+    article p{
+        font-size: 13pt;
+        line-height: 25px;
+    }
+    figure.gameimg figcaption{
+        padding-right: 30px;
+        padding-left: -7px;
+        padding-right:0px;
+        margin-right: 10px;
+        font-size: 9pt;
+    }
+    figure.gameimg img{
+        width: 95%;
+        max-width: 700px;
+        min-width: 400px;
+    } 
+    div#youtube iframe{
+        height: 300px;
+        width: 60%;
+        min-width: 430px;
+    }
+    table caption{
+        margin-top: 20px;
+        margin-bottom: 7px;
+        width: 230px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        font-size: 20pt;
+    }
+    table td{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }   
+}
+@media (min-width: 1367px){
+    section#site-corpo h1{
+        font-size: 30px;
+    }
+    h3#descricao{
+        font-size: 15pt;
+    }
+    p#redator{
+        font-size: 13px;
+    }
+    article p{
+        font-size: 13pt;
+        line-height: 25px;
+    }
+    figure.gameimg figcaption{
+        padding-right: 30px;
+        padding-left: -7px;
+        padding-right:0px;
+        margin-right: 10px;
+        font-size: 9pt;
+    }
+    figure.gameimg img{
+        width: 95%;
+        max-width: 1300x;
+        min-width: 400px;
+    } 
+    div#youtube iframe{
+        height: 300px;
+        width: 60%;
+        min-width: 430px;
+    }
+    table caption{
+        margin-top: 20px;
+        margin-bottom: 7px;
+        width: 230px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        font-size: 20pt;
+    }
+    table td{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }   
+}

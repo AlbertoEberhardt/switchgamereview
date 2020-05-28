@@ -1,0 +1,89 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+body{
+    background-color: rgb(245, 243, 243);
+}
+div#all-contend-is-here{
+    width:600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#select-container{
+    margin-left: 20px;
+}
+select{
+    margin-left: 9px;
+    background-color: rgb(245, 243, 243);
+}
+select option{
+    font-family: 'Open Sans', sans-serif;
+}
+table.all-reviews{
+    margin-top: 20px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.288);
+    width: 550px;
+}
+table.all-reviews:hover{
+    opacity: 0.9;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.384);
+}
+table.all-reviews a.link-review{
+    text-decoration: underline;
+    color: green;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16pt;
+}
+a.link-on-table:visited a.link-review{
+    color: purple;
+}
+.table-game-img{
+    width: 150px;
+}
+table.all-reviews td{
+    padding-right: 30px;
+}
+td.data-publicacao{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: rgb(145, 142, 142);
+}
+td.link-review-container{
+    width: 200px;
+    text-align: left;
+}
+@media (max-width: 574px) and (min-width: 431px){
+    div#all-contend-is-here{
+        width: auto;
+    }
+    table.all-reviews{
+        width: 100%;
+    }
+    table.all-reviews a.link-review{
+        font-size:15pt;
+    }    
+}
+@media (max-width: 430px){
+    div#all-contend-is-here{
+        width: auto;
+    }
+    div#select-container{
+        margin-left: 10px;
+    }
+    table.all-reviews a.link-review{
+        font-size: 13pt;
+    }
+    .table-game-img{
+        width: 95px;
+    }
+    table.all-reviews td{
+        padding-right: 16px;
+    }
+    td.data-publicacao{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+        color: rgb(145, 142, 142);
+    }
+    table.all-reviews{
+        width: 100%;
+    }
+}

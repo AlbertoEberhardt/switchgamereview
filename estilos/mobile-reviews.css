@@ -1,0 +1,63 @@
+@charset "UTF-8";
+html{
+    min-width: 226px;
+}
+section#site-corpo h1{
+    font-size: 18pt;
+}
+h3#descricao{
+    font-size: 14pt;
+}
+p#redator{
+    font-size: 9pt; 
+}
+article h2{
+   font-size: 16pt;
+   margin-top: -10px;
+}
+article p{
+    font-size: 12pt;
+    line-height: 22.5px;
+}
+article figure.gameimg{
+    margin-left: -40px;
+    margin-right: 9px;
+}    
+figure.gameimg figcaption{
+    padding-left: 7px;
+    padding-right:0px;
+    margin-right: -17px;
+    font-size: 8pt;
+}
+figure.gameimg img{
+    width: 100%;
+    max-width: 429px;
+    min-width: 100px;
+}
+div#youtube{
+    width: 100%;
+    padding-bottom: 10px;
+}
+div#youtube iframe{
+    height: 200px;
+    width: 100%;
+    min-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table{
+    width: 100%;
+    font-size: 10.5pt;
+}
+table caption{
+    margin-top: 20px;
+    margin-bottom: 7px;
+    font-size: 14pt;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 150px;
+}
+table td{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}                

@@ -1,0 +1,70 @@
+@charset "UTF-8";
+header#site-logo-conteiner{
+    width: 100%;
+    margin-top: -21.5px;
+    margin-left: -8px;
+    margin-right: -20px;
+    padding-right: 15px;
+}
+h1#site-logo{
+    min-width: 196px;
+    height: 44px;
+}
+img#icon{
+    width: 80%;
+    margin-top: 0px;
+}
+img#img-site-logo{
+    width: 82%;
+    padding-left: 37px;
+    padding-top: 2px;
+    min-width: 150px;
+}
+div#menu{
+    top: -55px;
+    padding-right: 10px;
+}
+div.fechamenu{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 100px;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 1;
+    display: none;  
+}
+#fechamenu-complemento{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 160px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 1;
+    display: none;
+}     
+footer#sobre{
+    margin: 40px -8px -20px -8px;
+    min-width: 212px;
+
+}
+footer#sobre h2{
+    font-size: 14pt;
+    margin-top: 10px;
+    padding-top: 7px;
+    padding-bottom: 4px;
+    margin-bottom: 20px;
+    border-bottom: 2.5px solid red;
+}
+footer#sobre hr{
+    padding-top: 1px;
+}
+footer#sobre p{
+    font-size: 12pt;
+    line-height: 18px;
+    text-align: justify;
+}
+footer#sobre p#direitos{
+    font-size: 8pt;
+}

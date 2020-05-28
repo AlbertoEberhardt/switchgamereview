@@ -1,0 +1,128 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica;
+    margin-bottom: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a img#img-site-logo:hover{
+    opacity: 0.88;
+}
+img#icon:hover{
+    opacity: 0.88;
+    cursor: pointer;
+}
+header#site-logo-conteiner{
+    width: 100%;
+    margin-top: -21px;
+    margin-left: -7.6px;
+    margin-right: -20px;
+    padding-right: 15px;
+}
+h1#site-logo{
+    background-color: rgba(0, 0, 0, 1);
+    height: 45px;
+    width: 100%;
+    padding-right: 16px;
+    text-align: center;
+}h1#site-logo a{
+    vertical-align: middle;
+}
+img#img-site-logo{
+    padding-left: 37px;
+    padding-top: 0px;
+}
+div#menu{
+    position: relative;
+    display: inline-block;
+    top: -59px;
+    left: 5px;
+}div#content{
+    margin-top: 2px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    margin-left: -7px;
+}div#content a{
+    color: white;
+    border: 1px solid black;
+    display: block;
+    width: 80px;
+    padding:10px;
+    background-color: rgb(117, 117, 255);
+    text-align: center;
+    transition: ease-out 0.3s;
+}    
+div#content a:hover{
+    background-color: rgb(240, 45, 45);
+}
+div.fechamenu{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 100px;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 1;
+    display: none;  
+}
+#fechamenu-complemento{
+    width: 7.39%;
+    height: 100%;
+    position: fixed;
+    top: 163px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 1;
+    display: none;    
+}
+footer#sobre{
+    background-color: black;
+    color: white;
+    margin: auto -8px -20px -8px;
+    margin-bottom: -6%;
+
+}
+footer#sobre h2{
+    color: #666565;
+    margin-top: 30px;
+    padding-top: 15px;
+    border-bottom: 4px solid red;
+    display: table;
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+footer#sobre hr{
+    margin-top: -22px;
+    opacity: 0.2;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+footer#sobre p{
+    color: #5a5a5a;
+    line-height: 27px;
+    text-align: justify;
+    font-size: 13pt;
+    font-weight: 400;
+    text-indent: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+footer#sobre p#direitos{
+    color: rgba(255, 255, 255, 0.7);
+    background-color: #1b1b1b;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 8px;
+    padding-right: 0px;
+    font-size: 10pt;
+    text-align: center;
+}
+

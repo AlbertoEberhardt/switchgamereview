@@ -1,0 +1,21 @@
+@charset "UTF-8";
+img.chamada{
+    width: 91.5%;
+    max-width:310px;
+}
+article.reviews-links{
+    margin-top: -14px;
+    width: 95%;
+}
+article.reviews-links h1.reviews-links-title{
+    font-size: 14pt;
+}
+article.reviews-links h3.reviews-links-post-date{
+    font-size: 8pt;
+}
+article.reviews-links p.reviews-links-p{
+    font-size: 12pt;
+    line-height: 18.5px;
+    margin-top: 4px;
+    margin-bottom: 3px;
+}
