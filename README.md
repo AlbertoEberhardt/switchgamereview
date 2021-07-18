@@ -1,4 +1,5 @@
-# switchgamereview
+# Esqueleto do site switchgamereview
+ 
  **Descontinuado**
 
 Voçê pode acessar uma versão web completa clicando [aqui](https://switchgamereview.herokuapp.com/)
